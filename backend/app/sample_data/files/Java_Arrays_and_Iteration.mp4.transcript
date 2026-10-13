@@ -1,0 +1,6 @@
+[00:15] Professor: Welcome back everyone. Today we are continuing our deep dive into Java arrays and loop iteration.
+[01:05] Professor: Arrays in Java are contiguous memory blocks. Remember the cardinal rule: Java arrays are strictly zero-indexed.
+[02:18] Professor: That means if an array has length 10, the first element is at index 0 and the last element is at index 9.
+[03:45] Professor: Let's look at the most common mistake students make. If you write `for (int i = 0; i <= arr.length; i++)`, your program will crash. When i reaches `arr.length`, Java immediately throws an `ArrayIndexOutOfBoundsException`.
+[04:55] Professor: Always verify your loop condition. Use `i < arr.length`, not `i <= arr.length` when iterating over an entire array from zero.
+[06:20] Professor: Next, let's explore multidimensional arrays and how nested loops traverse 2D grids row by row.
